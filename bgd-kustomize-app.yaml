@@ -12,3 +12,5 @@ spec:
     repoURL: https://github.com/richinex/bgd-kustomize.git
     path: kustomize-installation
     targetRevision: main
+  syncPolicy:
+    automated: {}

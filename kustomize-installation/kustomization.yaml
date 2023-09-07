@@ -2,7 +2,9 @@ apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 namespace: bgdk
 resources:
-  - resources
+  - resources/namespace.yaml
+  - resources/bgd-deployment.yaml
+  - resources/bgd-service.yaml
 patchesJson6902:
   - target:
       version: v1
