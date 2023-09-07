@@ -10,7 +10,9 @@ patchesJson6902:
       kind: Deployment
       name: bgd
       namespace: bgdk
-  patch: |-
-    - op: replace
-      path: /spec/template/spec/containers/0/env/0/value
-      value: yellow
+    patch: |-
+      - op: replace
+        path: /spec/template/spec/containers/0/env/0/value
+        value: yellow
+
+
