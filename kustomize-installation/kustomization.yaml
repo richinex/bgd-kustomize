@@ -4,7 +4,7 @@ namespace: bgdk
 resources:
   - resources/namespace.yaml
   - resources/bgd-deployment.yaml
-  - resources/bgd-service.yaml
+  - resources/bgd-svc.yaml
 patchesJson6902:
   - target:
       version: v1
